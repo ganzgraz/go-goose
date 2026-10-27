@@ -1,4 +1,5 @@
 import { useLanguage } from "../i18n/LanguageContext";
+import { SupportBanner } from "./SupportBanner";
 
 interface MainMenuProps {
   onPlay: () => void;
@@ -21,6 +22,7 @@ export function MainMenu({
 
   return (
     <nav className="main-menu">
+      <SupportBanner />
       <button className="menu-button" onClick={onPlay}>
         {t.play}
       </button>

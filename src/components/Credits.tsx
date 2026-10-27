@@ -1,8 +1,5 @@
 import { useLanguage } from "../i18n/LanguageContext";
-
-const GANZGRAZ_URL = "https://ganzgraz.at/";
-const NEWSLETTER_URL = "https://news.ganzgraz.at";
-const MEMBERSHIP_URL = `${GANZGRAZ_URL}mitmachen`;
+import { GANZGRAZ_URL, MEMBERSHIP_URL, NEWSLETTER_URL } from "../links";
 
 export function Credits() {
   const { t } = useLanguage();

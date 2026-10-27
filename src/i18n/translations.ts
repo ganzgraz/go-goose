@@ -15,6 +15,8 @@ export interface Translations {
   creditsPrivacy: string;
   creditsNewsletter: string;
   creditsMember: string;
+  supportBannerLead: string;
+  supportBannerBody: string;
 
   play: string;
   dailyChallenge: string;
@@ -79,6 +81,8 @@ export const en: Translations = {
   creditsPrivacy: "Privacy Policy",
   creditsNewsletter: "Graz Newsletter",
   creditsMember: "Become a member",
+  supportBannerLead: "ganzgraz is a community medium with no corporation behind it.",
+  supportBannerBody: "Only with your contribution can this game and the Graz newsletter exist.",
 
   play: "Play",
   dailyChallenge: "Today's Challenge",
@@ -149,6 +153,8 @@ export const de: Translations = {
   creditsPrivacy: "Datenschutzerklärung",
   creditsNewsletter: "Zum Graz-Newsletter",
   creditsMember: "Member werden",
+  supportBannerLead: "ganzgraz ist ein Community-Medium und hat keinen Konzern im Rücken.",
+  supportBannerBody: "Nur durch deinen Beitrag kann es dieses Spiel und den Graz-Newsletter geben.",
 
   play: "Spielen",
   dailyChallenge: "Heutige Challenge",
