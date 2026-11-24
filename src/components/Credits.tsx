@@ -1,5 +1,5 @@
 import { useLanguage } from "../i18n/LanguageContext";
-import { GANZGRAZ_URL, MEMBERSHIP_URL, NEWSLETTER_URL } from "../links";
+import { GANZGRAZ_URL, MEMBERSHIP_URL, MORE_GAMES_URL, NEWSLETTER_URL } from "../links";
 
 export function Credits() {
   const { t } = useLanguage();
@@ -35,6 +35,9 @@ export function Credits() {
       </div>
 
       <nav className="credits-legal">
+        <a className="credits-link" href={MORE_GAMES_URL} target="_blank" rel="noopener noreferrer">
+          {t.creditsMoreGames}
+        </a>
         <a className="credits-link" href={`${GANZGRAZ_URL}impressum`} target="_blank" rel="noopener noreferrer">
           {t.creditsImprint}
         </a>

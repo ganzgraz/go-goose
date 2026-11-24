@@ -2,3 +2,4 @@
 export const GANZGRAZ_URL = "https://ganzgraz.at/";
 export const NEWSLETTER_URL = "https://news.ganzgraz.at";
 export const MEMBERSHIP_URL = `${GANZGRAZ_URL}mitmachen`;
+export const MORE_GAMES_URL = `${GANZGRAZ_URL}spiel`;

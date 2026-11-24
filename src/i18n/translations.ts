@@ -11,6 +11,7 @@ export interface Translations {
   creditsDesign: string;
   creditsConceptDevelopment: string;
   creditsBuild: string;
+  creditsMoreGames: string;
   creditsImprint: string;
   creditsPrivacy: string;
   creditsNewsletter: string;
@@ -77,6 +78,7 @@ export const en: Translations = {
   creditsConceptDevelopment: "Concept and Development",
   creditsBuild: "Built with",
   // The linked ganzgraz.at pages are German-only; only the labels are translated.
+  creditsMoreGames: "More games and puzzles",
   creditsImprint: "Imprint",
   creditsPrivacy: "Privacy Policy",
   creditsNewsletter: "Graz Newsletter",
@@ -149,6 +151,7 @@ export const de: Translations = {
   creditsDesign: "Design",
   creditsConceptDevelopment: "Konzept und Entwicklung",
   creditsBuild: "Erstellt mit",
+  creditsMoreGames: "Mehr Spiele und Rätsel",
   creditsImprint: "Impressum",
   creditsPrivacy: "Datenschutzerklärung",
   creditsNewsletter: "Zum Graz-Newsletter",
@@ -159,7 +162,7 @@ export const de: Translations = {
   play: "Spielen",
   dailyChallenge: "Heutige Challenge",
   dailyChallengeCompletedTitle: "Bereits erledigt",
-  howToPlay: "Spielanleitung",
+  howToPlay: "Anleitung",
   credits: "Credits",
 
   dailyCompleteTitle: "Gratulation!",
